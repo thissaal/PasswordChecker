@@ -14,15 +14,16 @@ public class PasswordTester {
         Scanner scanFile = new Scanner(rockyou);
         boolean found = false;
     
-        while(scanFile.hasNextLine()){
-            if(scanFile.next().equals(password)){
+        while (scanFile.hasNextLine()) {
+            String line = scanFile.nextLine();
+            if (line.equals(password)) {
                 System.out.println("WARNING: Common Password Found!");
                 found = true;
                 break;
-            } 
+            }
+        } 
             
             unqiuePasswd = !found;
-        }
 
     }
 
