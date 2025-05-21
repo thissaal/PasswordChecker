@@ -2,10 +2,11 @@
 a password checker and generator
 
 Installation
-Clone the repository:
 
+**Clone the repository:**
 ```git clone https://github.com/yourusername/PasswordChecker.git```
 
+**Move to Directory**
 ```cd PasswordChecker```
 
 ```javac PasswordTester.java```
